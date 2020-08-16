@@ -3,8 +3,7 @@
     box-sizing: content-box;
 }
 .container{
-    width: 100%;
-    height: fit-content;
+    margin: 0%;
 }
 #header-nav {
     background-color: gray;
@@ -24,13 +23,38 @@
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    width: max-content;
+    
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
 .navbar-brand{
-    align-content: center;
+    align-content: left;
     padding: 10px;
     height: 100%;
     width: 20%;
+    float: left;
+}
+#nav-list {
+    margin-top: 0px;
+    padding: 0%;
+    
+  }
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+ul{
+    width: 100%;
+}
+div #collapsable-nav{
+    margin-top: 0px;
+    padding: 0%;
 }
